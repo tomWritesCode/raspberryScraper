@@ -21,7 +21,7 @@ rp(url)
 		console.log(chalk.hex("#e592faff").bold(" WOW! raspberryCandy has:"));
 		console.log(
 			chalk.hex("#00feff")(
-				figlet.textSync($("span.downloads-text", html).text(), {
+				figlet.textSync($("span.installs-text", html).text(), {
 					font: "Big",
 					horizontalLayout: "default",
 					verticalLayout: "default"
