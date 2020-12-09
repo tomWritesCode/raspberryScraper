@@ -37,7 +37,7 @@ rp(url)
 		console.log(
 			chalk.hex("#e592faff").bold("It has been released for: " + chalk.hex("#00feff").bold(dateDiff()) + " days!")
 		);
-		console.log(chalk.hex("#00feff").bold("That's " + chalk.hex("#e592faff").bold(perDay($("span.installs-text", html).text())) + " downloads per day!"));
+		console.log(chalk.hex("#00feff").bold("That's about " + chalk.hex("#e592faff").bold(perDay($("span.installs-text", html).text())) + " downloads per day!"));
 	})
 	.catch(function (err) {
 		//handle error
