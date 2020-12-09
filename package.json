@@ -1,7 +1,7 @@
 {
   "name": "raspberryScraper",
   "version": "1.0.0",
-  "description": "Scraper for getting the downloads of raspBerryCandy",
+  "description": "Scraper for getting the downloads of raspberryCandy",
   "main": "raspberryScraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
